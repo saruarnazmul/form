@@ -1,0 +1,166 @@
+@font-face{
+	font-family: 'Roboto', sans-serif;
+}
+*{
+	padding: 0;
+	margin:0 ;
+}
+.custom-form{
+	margin: 0 auto;
+ padding: 80px 0; 
+ font-family: 'Roboto', sans-serif;
+  max-width: 1000px;
+  -webkit-box-shadow: -1px 0px 8px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 0px 8px -1px rgba(0,0,0,0.75);
+box-shadow: -1px 0px 8px -1px rgba(0,0,0,0.75);
+}
+.segment-icon{
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+}
+.btn-segment-custom{
+	/* linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(72,0,255,1) 0%, rgba(208,13,187,1) 100%) */
+	background: #9F0091;
+	color: #fff;
+	margin: 0 auto;
+	padding: 15px 60px;
+	font-size: 18px;
+	font-weight: 600;
+}
+.btn-segment-custom a{
+	color: #fff !important;
+	text-decoration: none;
+}
+.headline{
+	padding: 30px 0;
+}
+.headline  h3{
+	background: #9F0091;
+	display: inline-block;
+	margin: 0 15px;
+	padding:  15px 35px;
+   border-radius: 0px 35px 0px 35px;
+   color: #fff;
+   transition: all 0.8s ease-in-out;
+
+}
+.headline  h3:hover{
+ border-radius: 35px 0px 35px 0px;
+}
+
+label{
+	padding: 0 10px;
+	font-size: 18px;
+	font-weight: 600;
+}
+input{
+	width: 100%;
+	font-size: 18px;
+}
+/* check box */
+.checked-custom{
+	position: absolute;
+    margin-left: 7rem;
+}
+.form-control-cus:focus{
+	color: #495057;
+    background-color: #fff;
+    border-color: #d00d9a !important;
+    outline: 0;
+    box-shadow: 0 0 0 1px #d00d9a !important;
+}
+/* its for student level */
+.student-form{
+	padding:  80px 0;
+}
+.add{
+	max-width: 800px;
+	min-width: 305px;
+	margin: 0 auto;
+	padding: 0  0 80px 0;
+	-webkit-box-shadow: -1px 0px 8px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 0px 8px -1px rgba(0,0,0,0.75);
+box-shadow: -1px 0px 8px -1px rgba(0,0,0,0.75);
+}
+.edu-add{
+	width: 800px;
+}
+/*upload file */
+input[type="file"] {
+    display: none;
+}
+select {
+height:50px;
+overflow-y: scroll;
+}
+.custom-file-upload {
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    background: #9F0091;
+    color: #fff;
+}
+.sub-mit{
+	margin:  0 auto;
+}
+.submit-btn{
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(72,0,255,1) 0%, rgba(208,13,187,1) 100%);
+	transition: all 0.8s ease-in;
+	color: #fff;
+}
+.submit-btn:hover{
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(208,13,154,1) 0%, rgba(72,0,255,1) 100%);
+}
+/* education */
+
+
+/* course type selection option */
+.radio-none{
+	display: none;
+}
+.select-btn{
+	border: 1px solid grey;
+    height: 40px;
+    width: 130px;
+    padding: 10px 0;
+}
+.select-btn a{
+	color: #030303;
+	text-decoration: none;
+	outline: none;
+
+}
+.select-btn{
+	transition: 0.7s;
+}
+.select-btn:hover{
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(208,13,154,1) 0%, rgba(72,0,255,1) 100%);
+}
+
+.select-btn.active{
+	outline: none !important;
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(72,0,255,1) 0%, rgba(208,13,187,1) 100%);
+}
+.select-btn.active a{
+	color: #fff;
+}
+.select-btn-fresh{
+	width: 30px;
+}
+
+.select-btn-group .select-btn .method {
+	transition: all 0.5s;
+}
+.btn-be1:hover:after{
+ content: "INR";
+ top: 3px;
+ left: 0;
+ font-size: 12px;
+}
+.btn-be2:hover:after{
+ content: "USD";
+ top: 3px;
+ left: 0;
+ font-size: 12px;
+}

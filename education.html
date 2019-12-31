@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+  <!-- fonts -->
+  <!-- font awsome -->
+  <link rel="stylesheet" href="css/all.css">
+  <!-- font awsome -->
+  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- bootstrap css start -->
+  <link rel="stylesheet" href="bootstrap/bootstrap.css">
+  <!-- bootstrap css end -->
+  <!-- custom css start -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- custom css end -->
+  <!-- responsive media css start -->
+  <link rel="stylesheet" href="css/media.css">
+  <!-- responsive media css end -->
+
+  <title>Form</title>
+</head>
+<body>
+ <!-- its for studtent -->
+ <section class="student-form">
+   <div class="container">
+     <div class="row">
+      <div class="add edu-add">
+      <div class="row">
+          <div class="col-md-12 headline text-center">
+            <a href=".form-cus"><h3>Personal</h3></a>
+            <a href=""><h3 id="edu">Education</h3></a>
+          </div>
+        </div>
+            <form  class="form-cus" id="student">
+              <!-- qulificaions -->
+              <div class="form-group row">
+                <label for="email_address" class="col-md-4 col-form-label text-md-right">Highest Qualification</label>
+                <div class="col-md-6">
+                <select class="form-control form-control-cus">
+                  <option selected="" id="c_location">Select your highest qualificaitons</option>
+                  <option>PHD/Doctrate</option>
+                  <option>Masters</option>
+                  <option>Post Graduate</option>
+                  <option>Masters</option>
+                  <option>Mumbai</option>
+                  <option>Gujrat</option>
+                </select>
+                </div>
+              </div>
+              <!-- course -->
+              <div class="form-group row">
+                <label for="email_address" class="col-md-4 col-form-label text-md-right">Course</label>
+                <div class="col-md-6">
+                <select class="form-control form-control-cus">
+                  <option selected="" id="c_location">Select your Course</option>
+                  <option>PHD/Doctrate</option>
+                  <option>Mphil</option>
+                  <option>Others</option>
+                </select>
+                </div>
+              </div>
+              <!-- Specialization -->
+              <div class="form-group row">
+                <label for="email_address" class="col-md-4 col-form-label text-md-right">Specialization</label>
+                <div class="col-md-6">
+                <select class="form-control form-control-cus">
+                  <option selected="" id="c_location">Select Specialization</option>
+                  <option>PHD/Doctrate</option>
+                  <option>Masters</option>
+                  <option>Post Graduate</option>
+                  <option>Masters</option>
+                  <option>Mumbai</option>
+                  <option>Gujrat</option>
+                </select>
+                </div>
+              </div>
+
+              <!-- university college -->
+              <div class="form-group row">
+                <label for="u-college" class="col-md-4 col-form-label text-md-right">University/College</label>
+                <div class="col-md-6">
+                  <input type="text" id="u-college" class="form-control form-control-cus " name="Full Name" placeholder="Institute Name" required autofocus>
+                </div>
+              </div>
+              <!--  -->
+              <!-- university college -->
+              <div class="form-group row">
+                <label for="u-college" class="col-md-4 col-form-label text-md-right">Course Type</label>
+                <div class="col-md-6">
+              <div class="btn-group" data-toggle="buttons">
+                      <label class="btn select-btn active">
+                        <a href="" class="method">Full Time</a>
+                          <input type="radio" name="options" class="radio-none" checked> 
+                      </label>
+                      <label class="btn select-btn">
+                        <a href="" class="method">Part Time</a>
+                          <input type="radio" name="options" class="radio-none"> 
+                      </label>
+                      <label class="btn select-btn">
+                        <a href="" class="method">Correspondence</a>
+                          <input type="radio" name="options" class="radio-none">
+                      </label>
+                  </div>        
+                </div>
+              </div>
+              <!--  -->
+              <!-- Passing year -->
+              <div class="form-group row">
+                <label for="p-year" class="col-md-4 col-form-label text-md-right">Passing year</label>
+                <div class="col-md-6">
+                <select class="form-control form-control-cus" id="p-year">
+                  <option selected="">Select</option>
+                  <option>PHD/Doctrate</option>
+                  <option>Masters</option>
+                  <option>Post Graduate</option>
+                  <option>Masters</option>
+                  <option>Mumbai</option>
+                  <option>Gujrat</option>
+                </select>
+                </div>
+              </div>
+
+                <!--skill  -->
+                <!-- university college -->
+                <div class="form-group row">
+                  <label for="u-college" class="col-md-4 col-form-label text-md-right">University/College</label>
+                  <div class="col-md-6">
+                    <input type="text" id="u-college" class="form-control" name="Full Name" placeholder="Institute Name" required autofocus>
+                  </div>
+                </div>
+                <!-- skills  -->
+              <div class="form-group row">
+                <label for="skill" class="col-md-4 col-form-label text-md-right">Skills</label>
+                <div class="col-md-6">
+                  <input type="text" id="skill" class="form-control" name="Full Name" placeholder="Enter your desired role or skills." required autofocus>
+                </div>
+              </div>
+              <!--  -->
+            </form>
+            <div class="form-group sub-mit col-md-6">
+                <button type="submit" class="btn submit-btn btn-block"> Continue </button>
+              </div> <!-- form-group// -->
+          
+            </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+<script>
+</script>
+</body>
+</html>
+
+
+<!-- <div class="form-group input-group">
+    <label for="email">Create Password</label>
+        <input class="form-control" placeholder="Create password" type="password">
+    </div> -->
+
+<!--     <select class="custom-select" style="max-width: 120px;">
+        <option selected="">+971</option>
+        <option value="1">+972</option>
+        <option value="2">+198</option>
+        <option value="3">+701</option>
+    </select> -->
