@@ -23,7 +23,7 @@
   <link rel="stylesheet" href="css/media.css">
   <!-- responsive media css end -->
 
-  <title>Experience-Index</title>
+  <title>Student</title>
 </head>
 <body>
  <!-- its for studtent -->
@@ -33,76 +33,119 @@
       <div class="add">
       <div class="row">
           <div class="col-md-12 col-12 headline text-center">
-            <a href="ExperienceIndex.html"><h3>Personal</h3></a>
-            <a href="educationExperience.html"><h3 id="edu">Education</h3></a>
-            <a href="experience.html"><h3 id="edu">Experience</h3></a>
+            <a href=""><h3>Personal</h3></a>
+            <a href=""><h3>Experience</h3></a>
 
           </div>
         </div>
             <form  class="form-cus" id="student">
+              <!-- first name -->
               <div class="form-group row">
-                <label for="email_address" class="col-md-4 col-12 col-form-label text-md-right">Name</label>
+                <label for="f_name" class="col-md-4 col-12 col-form-label text-md-right">First Name</label>
                 <div class="col-md-6 col-12">
-                  <input type="text" id="email_address" class="form-control form-control-cus" name="Full Name" placeholder="Enter Your full Name" required autofocus>
+                  <input type="text" id="f_name" class="form-control form-control-cus" name="Full Name" placeholder="First name" required autofocus>
                 </div>
               </div>
+              <!-- last name -->
+              <div class="form-group row">
+                <label for="l_name" class="col-md-4 col-12 col-form-label text-md-right">Last Name</label>
+                <div class="col-md-6 col-12">
+                  <input type="text" id="l_name" class="form-control form-control-cus" name="Full Name" placeholder="Last name" required autofocus>
+                </div>
+              </div>
+              <!-- email id -->
+              <div class="form-group row">
+                <label for="email_address" class="col-md-4 col-12 col-form-label text-md-right">Email ID</label>
+                <div class="col-md-6 col-12">
+                  <input class="form-control form-control-cus" id="email_address" type="email" name="email" required data-error="Please enter your Email" placeholder="Email">
+                  <div class="help-block with-errors"></div>
+                </div>
+              </div>
+              <!-- contact number -->
                <div class="form-group row">
-                <label for="p-num" class="col-md-4 col-12 col-form-label text-md-right">Phone Number</label>
+                <label for="p-num" class="col-md-4 col-12 col-form-label text-md-right">Contact Number</label>
                 <div class="col-md-6 col-12">
-                  <input type="text" id="p-num" class="form-control form-control-cus" name="email-address" placeholder="Enter Your Number" required autofocus>
+                  <input type="number" id="p-num" class="form-control form-control-cus" name="phone number" placeholder="Enter Your Number" required data-error="Please enter your phone number"autofocus>
                 </div>
               </div>
-              <div class="form-group row">
-                <label for="email_address" class="col-md-4 col-12 col-form-label text-md-right">Whats'app Number</label>
+              <!-- contact number -->
+               <div class="form-group row">
+                <label for="address" class="col-md-4 col-12 col-form-label text-md-right">Address</label>
                 <div class="col-md-6 col-12">
-                  <input type="text" id="email_address" class="form-control form-control-cus" name="email-address" placeholder="Enter Your Whats'app Number" required autofocus>
+                  <input type="text" id="address" class="form-control form-control-cus" name="email-address" placeholder="Address" required data-error="Please enter your address"autofocus>
                 </div>
               </div>
-              <div class="form-group row">
-                <label for="email_address" class="col-md-4 col-12 col-form-label text-md-right">Current Location</label>
+              <!-- contact number -->
+               <div class="form-group row">
+                <label for="experience" class="col-md-4 col-12 col-form-label text-md-right">Experience</label>
                 <div class="col-md-6 col-12">
-                <select class="form-control form-control-cus drop">
-                  <option selected="" id="c_location">Current location</option>
-                  <option>Dellhi</option>
-                  <option>Mumbai</option>
-                  <option>Gujrat</option>
-                  <option>Dellhi</option>
-                  <option>Mumbai</option>
-                  <option>Gujrat</option>
-                </select>
-
+                  <input type="text" id="experience" class="form-control form-control-cus" name="experience" placeholder="Experience" required data-error="Please enter your address"autofocus>
                 </div>
               </div>
-              <!-- start -->
+              <!-- highest Qualifications -->
+               <div class="form-group row">
+                <label for="h_qualifcation" class="col-md-4 col-12 col-form-label text-md-right">Highest Qualifications</label>
+                <div class="col-md-6 col-12">
+                  <input type="text" id="h_qualifcation" class="form-control form-control-cus" name="highest Qualifications" placeholder="highest Qualifications" required data-error="Please enter your Highest Qualifications"autofocus>
+                </div>
+              </div>
+               <!-- highest Qualifications -->
+               <div class="form-group row">
+                <label for="field" class="col-md-4 col-12 col-form-label text-md-right">Field</label>
+                <div class="col-md-6 col-12">
+                  <input type="text" id="field" class="form-control form-control-cus" name="Field" placeholder="Field" required autofocus>
+                </div>
+              </div>
+              <!-- Course -->
               <div class="form-group row">
-                <label for="email_address" class="col-md-4 col-12 col-form-label text-md-right">Total Work Experience</label>
-                <div class="col-md-3 col-6">
+                <label for="email_address" class="col-md-4 col-12 col-form-label text-md-right">Course</label>
+                <div class="col-md-6 col-12">
                 <select class="form-control form-control-cus drop">
-                  <option selected="" id="c_location">Year</option>
-                  <option value="1">1</option>
-                  <option value="2">2</option>
-                  <option value="3">3</option>
-                  <option value="4">4</option>
-                  <option value="5">5</option>
-                  <option value="6">6</option>
+                  <option selected="" id="c_location">Select</option>
+                  <option>Diploma</option>
+                  <option>Masters</option>
+                  <option>PHD</option>
                 </select>
                 </div>
-                <div class="col-md-3 col-6">
+              </div>
+              <!-- college -->
+               <div class="form-group row">
+                <label for="field" class="col-md-4 col-12 col-form-label text-md-right">Name of the college</label>
+                <div class="col-md-6 col-12">
+                  <input type="text" id="n_college" class="form-control form-control-cus" name="College" placeholder="Name of your college" required autofocus>
+                </div>
+              </div>
+              <!-- college -->
+               <div class="form-group row">
+                <label for="field" class="col-md-4 col-12 col-form-label text-md-right">Year of completion</label>
+                <div class="col-md-6 col-12">
+                  <input type="text" id="y_completion" class="form-control form-control-cus" name="College" placeholder="Your of completion" required autofocus>
+                </div>
+              </div>
+              <!-- Course Type-->
+              <div class="form-group row">
+                <label for="c_type" class="col-md-4 col-12 col-form-label text-md-right">Course type</label>
+                <div class="col-md-6 col-12">
                 <select class="form-control form-control-cus drop">
-                  <option selected="" id="c_location">Month</option>
-                  <option value="1">1</option>
-                  <option value="2">2</option>
-                  <option value="3">3</option>
-                  <option value="4">4</option>
-                  <option value="5">5</option>
-                  <option value="6">6</option>
-                  <option value="7">7</option>
-                  <option value="8">8</option>
-                  <option value="9">9</option>
-                  <option value="10">10</option>
-                  <option value="11">11</option>
-                  <option value="12">12</option>
+                  <option selected="" id="c_location">Select</option>
+                  <option>Diploma</option>
+                  <option>Masters</option>
+                  <option>PHD</option>
                 </select>
+                </div>
+              </div>
+              <!-- college -->
+               <div class="form-group row">
+                <label for="skill" class="col-md-4 col-12 col-form-label text-md-right">Skills</label>
+                <div class="col-md-6 col-12">
+                  <input type="text" id="skill" class="form-control form-control-cus" name="skill" placeholder="skills" required autofocus>
+                </div>
+              </div>
+              <!-- college -->
+               <div class="form-group row">
+                <label for="skill" class="col-md-4 col-12 col-form-label text-md-right">Password</label>
+                <div class="col-md-6 col-12">
+                  <input type="password" id="password" class="form-control form-control-cus" name="College" placeholder="Password" required autofocus>
                 </div>
               </div>
               <!-- form-group end.// --> 
@@ -110,12 +153,20 @@
                 <label for="email_address" class="col-md-4 col-12 col-form-label text-md-right">Upload Resume</label>
                 <div class="col-md-6 col-12">
                   <label for="file-upload" class="custom-file-upload">
-                     Custom Upload
+                     Resume
                   </label>
                   <input type="file" id="file-upload">
                 </div>
               </div>
-
+               <!-- security recaptcha -->
+               <div class="form-group row">
+                <label for="skill" class="col-md-4 col-12 col-form-label text-md-right">Security Captcha</label>
+                <div class="col-md-6 col-12">
+                  <div class="g-recaptcha" data-sitekey="6LfKURIUAAAAAO50vlwWZkyK_G2ywqE52NU7YO0S" data-callback="verifyRecaptchaCallback" data-expired-callback="expiredRecaptchaCallback"></div>
+                            <input class="form-control d-none" data-recaptcha="true" required data-error="Please complete the Captcha">
+                            <div class="help-block with-errors"></div>
+                </div>
+              </div>
               <div class="form-group row">
                 <div class="col-md-4 col-2">
                   <input type="checkbox" class="checked-custom" checked>
@@ -139,6 +190,8 @@
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="js/jquery-3.4.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<!-- recaptcha google link -->
+<script src='https://www.google.com/recaptcha/api.js'></script>
 <script src="js/script.js"></script>
 <script>
 </script>
